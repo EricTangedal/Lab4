@@ -28,6 +28,8 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:contentDescription="@string/camera_button"
+        app:srcCompat="@drawable/baseline_photo_camera_24"
+        tools:ignore="RedundantDescriptionCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
