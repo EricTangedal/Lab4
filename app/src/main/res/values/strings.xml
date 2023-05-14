@@ -14,4 +14,5 @@
     <string name="photo_saved">Photo saved.</string>
     <string name="photo_not_saved">Problem saving the photo.</string>
     <string name="camera_button">camera button</string>
+    <string name="alarm_button">alarm button</string>
 </resources>

@@ -19,6 +19,12 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <fragment
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -30,6 +36,17 @@
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/camera_button"
         app:srcCompat="@drawable/baseline_photo_camera_24"
+        tools:ignore="RedundantDescriptionCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/alarm_button"
+        app:srcCompat="@drawable/baseline_surround_sound_24"
         tools:ignore="RedundantDescriptionCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
