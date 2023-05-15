@@ -4,7 +4,5 @@ This Android application should display the user's location on a map and allow t
 
 I aim to implement the following features: 
 1. Play a sound when a button is clicked
-2. Display an animation
-3. Uses the sensors
 4. Use the camera
 5. Use the location
